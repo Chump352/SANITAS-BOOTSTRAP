@@ -37,6 +37,7 @@ a:focus {
     box-shadow: none;
     outline: none !important;
     border: none;
+    background: #000000;
 }
 
 .line {
@@ -45,6 +46,19 @@ a:focus {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
+
+.btn-info {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+    background: #000000;
+}
+
+.btn-info:hover{
+    background: #eb1818;
+    border-color: #000000;
+}
+
 
 i,
 span {
@@ -60,18 +74,17 @@ span {
     align-items: stretch;
 }
 
-
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: #000000;
     color: #fff;
     transition: all 0.3s;
 }
 
 #sidebar.active {
-    min-width: 80px;
-    max-width: 80px;
+    min-width: 100px;
+    max-width: 100px;
     text-align: center;
 }
 
@@ -116,7 +129,7 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #000000;
 }
 
 #sidebar .sidebar-header strong {
@@ -126,7 +139,7 @@ span {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #000000;
 }
 
 #sidebar ul li a {
@@ -136,7 +149,7 @@ span {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #000000;
     background: #fff;
 }
 
@@ -147,7 +160,7 @@ span {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #eb1818;
 }
 
 a[data-toggle="collapse"] {
@@ -165,7 +178,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #e75441;
 }
 
 ul.CTAs {
@@ -180,16 +193,6 @@ ul.CTAs a {
     margin-bottom: 5px;
 }
 
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
-a.article,
-a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-}
 
 /* ---------------------------------------------------
     CONTENT STYLE
