@@ -8,6 +8,12 @@ body {
     background: #fafafa;
 }
 
+.progress {
+
+    height: 30px;
+    
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
@@ -178,7 +184,8 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #e75441;
+    background: #ffffff;
+    color: #000000;
 }
 
 ul.CTAs {
